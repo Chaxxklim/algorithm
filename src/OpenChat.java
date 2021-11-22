@@ -3,10 +3,9 @@ import java.util.*;
 class OpenChat {
     public static String[] solution(String[] record) {
         Map<String, String> map = new HashMap<>();
-        int ren = record.length;
         List<String> list = new ArrayList<>();
         String[][] array = new String[ren][3];
-        for(int i = 0; i < ren; i++){
+        for(int i = 0; i < record.length;; i++){
             array[i][0] = record[i].split(" ")[0]; // Action
             array[i][1] = record[i].split(" ")[1]; // id
             if(array[i][0].equals("Enter") || array[i][0].equals("Change")) {
@@ -15,7 +14,7 @@ class OpenChat {
             }
         }
 
-        for (int i = 0; i < ren; i++){
+        for (int i = 0; i < record.length; i++){
             if(array[i][0].equals("Enter")){
                 String str = "";
                 str = map.get(array[i][1]) + "님이 들어왔습니다.";
