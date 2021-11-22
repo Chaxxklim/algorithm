@@ -4,8 +4,8 @@ class OpenChat {
     public static String[] solution(String[] record) {
         Map<String, String> map = new HashMap<>();
         List<String> list = new ArrayList<>();
-        String[][] array = new String[ren][3];
-        for(int i = 0; i < record.length;; i++){
+        String[][] array = new String[record.length][3];
+        for(int i = 0; i < record.length; i++){
             array[i][0] = record[i].split(" ")[0]; // Action
             array[i][1] = record[i].split(" ")[1]; // id
             if(array[i][0].equals("Enter") || array[i][0].equals("Change")) {
