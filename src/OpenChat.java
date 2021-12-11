@@ -21,7 +21,6 @@ class OpenChat {
                 list.add(str);
             } else if (array[i][0].equals("Leave")){
                 String str = "";
-                array[i][0] = record[i].split(" ")[0]; // Action
                 array[i][1] = record[i].split(" ")[1]; // id
                 str = map.get(array[i][1]) + "님이 나갔습니다.";
                 list.add(str);
@@ -33,11 +32,12 @@ class OpenChat {
         for(int i = 0; i < list.size(); i++){
             answer[i] = list.get(i);
         }
+        System.out.println(Arrays.toString(answer));
         return answer;
     }
 
     public static void main(String[] args) {
         String[] record = {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
-
+        solution(record);
     }
 }

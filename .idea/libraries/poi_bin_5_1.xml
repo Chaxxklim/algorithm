@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="poi-bin-5.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-examples-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-excelant-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-ooxml-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-ooxml-full-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-ooxml-lite-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-scratchpad-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.11.0-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/poi-bin-5.1.0-20211024/poi-bin-5.1.0/poi-javadoc-5.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.11.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.11.0-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
