@@ -1,5 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class BaekJoon3209 {
@@ -35,13 +34,13 @@ public class BaekJoon3209 {
 //        System.out.println(Arrays.toString(inputStartArray));
 //        System.out.println(Arrays.toString(inputBombArray));
 
-        inputStartHour = Integer.valueOf(inputStartArray[0]);
-        inputStartMinute = Integer.valueOf(inputStartArray[1]);
-        inputStartSecond = Integer.valueOf(inputStartArray[2]);
+        inputStartHour = Integer.parseInt(inputStartArray[0]);
+        inputStartMinute = Integer.parseInt(inputStartArray[1]);
+        inputStartSecond = Integer.parseInt(inputStartArray[2]);
 
-        inputBombHour = Integer.valueOf(inputBombArray[0]);
-        inputBombMinute = Integer.valueOf(inputBombArray[1]);
-        inputBombSecond = Integer.valueOf(inputBombArray[2]);
+        inputBombHour = Integer.parseInt(inputBombArray[0]);
+        inputBombMinute = Integer.parseInt(inputBombArray[1]);
+        inputBombSecond = Integer.parseInt(inputBombArray[2]);
 
         if (inputStartHour > inputBombHour) inputBombHour += 24;
         if (inputStartMinute > inputBombMinute ){
