@@ -75,6 +75,7 @@ public class BaekJoon3209 {
 
 
         System.out.println(resultHour + ":" + resultMinute + ":" + resultSecond);
+
         sc.close();
 
 
