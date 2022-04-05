@@ -12,7 +12,6 @@ public class BackJoon2490 {
 */
         Scanner sc = new Scanner(System.in);
         List<String> resultList = new ArrayList<>();
-
         String result = "";
         for (int i = 1 ; i <= 3; i++) {
             int count = 0;
