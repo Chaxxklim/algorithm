@@ -19,7 +19,7 @@ public class Kakao2022Report {
         for (String reportCountstr : reportCount.keySet()) {
             if(reportCount.get(reportCountstr) >= k){
                 for (String reportMapStr: reportMap.keySet()) {
-                    if(reportMap.get(reportMapStr) == )
+//                    if(reportMap.get(reportMapStr) == )
                 }
             }
         }
